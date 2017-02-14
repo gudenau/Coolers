@@ -1,4 +1,4 @@
 # Coolers
 They feed you.
 
-Currently issues only.
+Requires GudLib.
