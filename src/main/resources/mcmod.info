@@ -1,0 +1,18 @@
+[
+{
+  "modid": "gud_coolers",
+  "name": "Coolers",
+  "description": "Adds coolers that feed you!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["gudenau","shadowreaperx"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "requiredMods": ["forge", "gud_lib"],
+  "dependencies": ["forge", "gud_lib"],
+  "useDependencyInformation": true
+}
+]

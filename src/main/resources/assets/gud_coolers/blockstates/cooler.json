@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": {"model": "snow"},
+        "facing=east":  {"model": "snow"},
+        "facing=south": {"model": "snow"},
+        "facing=west":  {"model": "snow"}
+    }
+}
