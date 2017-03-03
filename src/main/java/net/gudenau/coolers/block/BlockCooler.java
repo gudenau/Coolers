@@ -84,11 +84,16 @@ public class BlockCooler extends Block {
         return true;
     }
     
-    @Override
+    /*@Override
     public void onBlockPlacedBy(World worldIn, BlockPos pos, IBlockState state, EntityLivingBase placer, ItemStack stack){
         worldIn.setBlockState(pos, state.withProperty(FACING, placer.getHorizontalFacing()), 2);
+    }*/
+
+    @Override
+    public IBlockState getStateForPlacement(World world, BlockPos pos, EnumFacing facing, float hitX, float hitY, float hitZ, int meta, EntityLivingBase placer, EnumHand hand){
+        return getDefaultState().withProperty(FACING, placer.getHorizontalFacing());
     }
-    
+
     @Override
     protected BlockStateContainer createBlockState(){ return new BlockStateContainer(this, FACING); }
     
